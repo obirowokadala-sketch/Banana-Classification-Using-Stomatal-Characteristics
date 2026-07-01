@@ -1,0 +1,1 @@
+The present data files are the supplementary data files for the manusccript entitled: A Low Cost Method for Discriminating/Identifying Banana (Musa) Genomic Groups and Polyploidy States using Stomatal Characteristics’ Fingerprints 
