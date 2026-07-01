@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="Windows-1252" ?>
+<PMML version="2.0">
+<Header copyright="STATISTICA Data Miner, Copyright (c) StatSoft, Inc., www.statsoft.com."/>
+<DataDictionary numberOfFields="5">
+	<DataField name="Genomic Group" optype="categorical">
+		<Value value="AA" NumericValue="101"/>
+		<Value value="AAA" NumericValue="102"/>
+		<Value value="AAB" NumericValue="103"/>
+		<Value value="AABB (Assumed)" NumericValue="104"/>
+		<Value value="AB" NumericValue="105"/>
+		<Value value="ABB" NumericValue="106"/>
+		<Value value="BB" NumericValue="107"/>
+	</DataField>
+	<DataField name="Component 1 - Extracted component" optype="continuous"/>
+	<DataField name="Component 2 - Extracted component" optype="continuous"/>
+	<DataField name="Component 3 - Extracted component" optype="continuous"/>
+	<DataField name="Component 4 - Extracted component" optype="continuous"/>
+</DataDictionary>
+<GeneralDiscriminantAnalysis
+	functionName="classification"
+	modelName="General discriminant analysis"
+	modelType="generalLinear"
+	targetVariableName="Genomic Group">
+<ParameterList>
+	<Parameter name="p1" label="Intercept"/>
+	<Parameter name="p2" label="Component 1 - Extracted component"/>
+	<Parameter name="p3" label="Component 2 - Extracted component"/>
+	<Parameter name="p4" label="Component 3 - Extracted component"/>
+	<Parameter name="p5" label="Component 4 - Extracted component"/>
+</ParameterList>
+<FactorList>
+</FactorList>
+<CovariateList>
+	<Predictor name="Component 1 - Extracted component"/>
+	<Predictor name="Component 2 - Extracted component"/>
+	<Predictor name="Component 3 - Extracted component"/>
+	<Predictor name="Component 4 - Extracted component"/>
+</CovariateList>
+<PPMatrix>
+	<PPCell value="1" predictorName="Component 1 - Extracted component" parameterName="p2"/>
+	<PPCell value="1" predictorName="Component 2 - Extracted component" parameterName="p3"/>
+	<PPCell value="1" predictorName="Component 3 - Extracted component" parameterName="p4"/>
+	<PPCell value="1" predictorName="Component 4 - Extracted component" parameterName="p5"/>
+</PPMatrix>
+<Extension name="CorrectDummyCode" value="1"/>
+<Extension name="IncorrectDummyCode" value="-1"/>
+<ParamMatrix>
+	<PCell targetCategory="AA" parameterName="p1" beta="7.16448615748698e-002"/>
+	<PCell targetCategory="AA" parameterName="p2" beta="-2.50181073686541e-002"/>
+	<PCell targetCategory="AA" parameterName="p3" beta="-7.18829612200566e-002"/>
+	<PCell targetCategory="AA" parameterName="p4" beta="3.41097229400887e-002"/>
+	<PCell targetCategory="AA" parameterName="p5" beta="-2.91391155407376e-002"/>
+	<PCell targetCategory="AAA" parameterName="p1" beta="1.10616675434805e-001"/>
+	<PCell targetCategory="AAA" parameterName="p2" beta="4.55804287841617e-003"/>
+	<PCell targetCategory="AAA" parameterName="p3" beta="1.52613136707441e-002"/>
+	<PCell targetCategory="AAA" parameterName="p4" beta="8.16230998519313e-002"/>
+	<PCell targetCategory="AAA" parameterName="p5" beta="2.79810233267991e-001"/>
+	<PCell targetCategory="AAB" parameterName="p1" beta="3.54410002948647e-001"/>
+	<PCell targetCategory="AAB" parameterName="p2" beta="-3.33216830002643e-002"/>
+	<PCell targetCategory="AAB" parameterName="p3" beta="6.11046709139621e-002"/>
+	<PCell targetCategory="AAB" parameterName="p4" beta="-3.93934024021226e-001"/>
+	<PCell targetCategory="AAB" parameterName="p5" beta="6.88670194895829e-003"/>
+	<PCell targetCategory="AABB (Assumed)" parameterName="p1" beta="1.25791108325839e-001"/>
+	<PCell targetCategory="AABB (Assumed)" parameterName="p2" beta="1.29962228597028e-001"/>
+	<PCell targetCategory="AABB (Assumed)" parameterName="p3" beta="-7.84848550062881e-002"/>
+	<PCell targetCategory="AABB (Assumed)" parameterName="p4" beta="2.13807108369478e-002"/>
+	<PCell targetCategory="AABB (Assumed)" parameterName="p5" beta="-4.77316531554642e-002"/>
+	<PCell targetCategory="AB" parameterName="p1" beta="1.25158490762732e-001"/>
+	<PCell targetCategory="AB" parameterName="p2" beta="-6.15901910361985e-002"/>
+	<PCell targetCategory="AB" parameterName="p3" beta="-1.05639725024876e-001"/>
+	<PCell targetCategory="AB" parameterName="p4" beta="6.89705167289636e-002"/>
+	<PCell targetCategory="AB" parameterName="p5" beta="-5.33130289899008e-002"/>
+	<PCell targetCategory="ABB" parameterName="p1" beta="1.22449764302969e-001"/>
+	<PCell targetCategory="ABB" parameterName="p2" beta="1.23731069236323e-002"/>
+	<PCell targetCategory="ABB" parameterName="p3" beta="1.31120195346204e-001"/>
+	<PCell targetCategory="ABB" parameterName="p4" beta="1.17982281504503e-001"/>
+	<PCell targetCategory="ABB" parameterName="p5" beta="-1.22685930270111e-001"/>
+	<PCell targetCategory="BB" parameterName="p1" beta="8.99290966501390e-002"/>
+	<PCell targetCategory="BB" parameterName="p2" beta="-2.69633969939593e-002"/>
+	<PCell targetCategory="BB" parameterName="p3" beta="4.85213613203106e-002"/>
+	<PCell targetCategory="BB" parameterName="p4" beta="6.98676921587922e-002"/>
+	<PCell targetCategory="BB" parameterName="p5" beta="-3.38272072607351e-002"/>
+</ParamMatrix>
+	</GeneralDiscriminantAnalysis>
+	</PMML>

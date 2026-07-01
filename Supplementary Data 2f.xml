@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="Windows-1252" ?>
+<PMML version="2.0">
+<Header copyright="STATISTICA Data Miner, Copyright (c) StatSoft, Inc., www.statsoft.com."/>
+<DataDictionary numberOfFields="4">
+	<DataField name="Polyploidy Status" optype="categorical">
+		<Value value="2" NumericValue="1"/>
+		<Value value="3" NumericValue="2"/>
+		<Value value="4" NumericValue="3"/>
+	</DataField>
+	<DataField name="Component 1 - Extracted component" optype="continuous"/>
+	<DataField name="Component 2 - Extracted component" optype="continuous"/>
+	<DataField name="Component 3 - Extracted component" optype="continuous"/>
+</DataDictionary>
+<GeneralDiscriminantAnalysis
+	functionName="classification"
+	modelName="General discriminant analysis"
+	modelType="generalLinear"
+	targetVariableName="Polyploidy Status">
+<ParameterList>
+	<Parameter name="p1" label="Intercept"/>
+	<Parameter name="p2" label="Component 1 - Extracted component"/>
+	<Parameter name="p3" label="Component 2 - Extracted component"/>
+	<Parameter name="p4" label="Component 3 - Extracted component"/>
+</ParameterList>
+<FactorList>
+</FactorList>
+<CovariateList>
+	<Predictor name="Component 1 - Extracted component"/>
+	<Predictor name="Component 2 - Extracted component"/>
+	<Predictor name="Component 3 - Extracted component"/>
+</CovariateList>
+<PPMatrix>
+	<PPCell value="1" predictorName="Component 1 - Extracted component" parameterName="p2"/>
+	<PPCell value="1" predictorName="Component 2 - Extracted component" parameterName="p3"/>
+	<PPCell value="1" predictorName="Component 3 - Extracted component" parameterName="p4"/>
+</PPMatrix>
+<Extension name="CorrectDummyCode" value="1"/>
+<Extension name="IncorrectDummyCode" value="-1"/>
+<ParamMatrix>
+	<PCell targetCategory="2" parameterName="p1" beta="2.79578964597252e-001"/>
+	<PCell targetCategory="2" parameterName="p2" beta="1.24396403648705e-001"/>
+	<PCell targetCategory="2" parameterName="p3" beta="-1.97178506880278e-001"/>
+	<PCell targetCategory="2" parameterName="p4" beta="-1.99372661714065e-001"/>
+	<PCell targetCategory="3" parameterName="p1" beta="5.94453746503171e-001"/>
+	<PCell targetCategory="3" parameterName="p2" beta="3.43339348032308e-003"/>
+	<PCell targetCategory="3" parameterName="p3" beta="2.88524041971314e-001"/>
+	<PCell targetCategory="3" parameterName="p4" beta="2.19315157929012e-001"/>
+	<PCell targetCategory="4" parameterName="p1" beta="1.25967288899577e-001"/>
+	<PCell targetCategory="4" parameterName="p2" beta="-1.27829797129029e-001"/>
+	<PCell targetCategory="4" parameterName="p3" beta="-9.13455350910364e-002"/>
+	<PCell targetCategory="4" parameterName="p4" beta="-1.99424962149472e-002"/>
+</ParamMatrix>
+	</GeneralDiscriminantAnalysis>
+	</PMML>

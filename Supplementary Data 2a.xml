@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="Windows-1252" ?>
+<PMML version="2.0">
+<Header copyright="STATISTICA MSPC, Copyright (c) StatSoft, Inc., www.statsoft.com."/>
+
+<DataDictionary numberOfFields="6">
+	<DataField name="Density" optype="predictor">
+		<Mean value="6.31599400369003e+001"/>
+		<Std value="1.98159492671599e+001"/>
+		<Scale value="1.98159492671599e+001"/>
+	</DataField>
+	<DataField name="Length" optype="predictor">
+		<Mean value="3.10987084870849e+001"/>
+		<Std value="4.70264269898299e+000"/>
+		<Scale value="4.70264269898299e+000"/>
+	</DataField>
+	<DataField name="Width" optype="predictor">
+		<Mean value="3.34746309963100e+001"/>
+		<Std value="3.64789732816622e+000"/>
+		<Scale value="3.64789732816622e+000"/>
+	</DataField>
+	<DataField name="Size" optype="predictor">
+		<Mean value="1.05516051660517e+003"/>
+		<Std value="2.72048480420725e+002"/>
+		<Scale value="2.72048480420725e+002"/>
+	</DataField>
+	<DataField name="Area" optype="predictor">
+		<Mean value="6.02170341328414e+003"/>
+		<Std value="2.89524785634175e+003"/>
+		<Scale value="2.89524785634175e+003"/>
+	</DataField>
+	<DataField name="Genomic Group" optype="predictor" numberOfCategories="7">
+		<Category text="AA" value="101">
+			<Mean value="9.96309963099632e-002"/>
+			<Std value="2.99576462137537e-001"/>
+			<Scale value="2.99576462137537e-001"/>
+		</Category>
+		<Category text="AAA" value="102">
+			<Mean value="1.11162361623617e-001"/>
+			<Std value="3.14405608107087e-001"/>
+			<Scale value="3.14405608107087e-001"/>
+		</Category>
+		<Category text="AAB" value="103">
+			<Mean value="3.55166051660517e-001"/>
+			<Std value="4.78674016561147e-001"/>
+			<Scale value="4.78674016561147e-001"/>
+		</Category>
+		<Category text="AABB (Assumed)" value="104">
+			<Mean value="1.19926199261993e-001"/>
+			<Std value="3.24950167058694e-001"/>
+			<Scale value="3.24950167058694e-001"/>
+		</Category>
+		<Category text="AB" value="105">
+			<Mean value="1.01476014760148e-001"/>
+			<Std value="3.02027662907566e-001"/>
+			<Scale value="3.02027662907566e-001"/>
+		</Category>
+		<Category text="ABB" value="106">
+			<Mean value="1.29612546125461e-001"/>
+			<Std value="3.35954154020280e-001"/>
+			<Scale value="3.35954154020280e-001"/>
+		</Category>
+		<Category text="BB" value="107">
+			<Mean value="8.30258302583026e-002"/>
+			<Std value="2.75984917086774e-001"/>
+			<Scale value="2.75984917086774e-001"/>
+		</Category>
+	</DataField>
+</DataDictionary>
+
+<PCA scaling="UnitStandardDeviations" numberOfVariables="12" numberOfComponents="4">
+	<TS controllimit="9.90000000000000e-001" controlline="1.33359522408343e+001" warning="0"/>
+	<SPE controllimit="9.90000000000000e-001" controlline="1.43136230556179e+001" warning="0"/>
+	<Components>
+		<Component>
+			<Score type="0" std="2.08324433556483e+000" df="2167" controllimit="3.00000000000000e+000" uppercontrol="6.24973300669449e+000" lowercontrol="-6.24973300669450e+000" warning="0"/>
+			<Loadings>
+				<Loading value="1.40936724370080e-001"/>
+				<Loading value="4.48715561108175e-001"/>
+				<Loading value="4.18274550838235e-001"/>
+				<Loading value="4.59992297642185e-001"/>
+				<Loading value="4.05689163957009e-001"/>
+				<Loading value="-1.23329609010293e-001"/>
+				<Loading value="1.56065046953138e-002"/>
+				<Loading value="-6.88248505293948e-002"/>
+				<Loading value="4.05555742291835e-001"/>
+				<Loading value="-1.81770895202716e-001"/>
+				<Loading value="3.97507100429996e-002"/>
+				<Loading value="-9.15102208858496e-002"/>
+			</Loadings>
+		</Component>
+		<Component>
+			<Score type="0" std="1.52098766594160e+000" df="2167" controllimit="3.00000000000000e+000" uppercontrol="4.56296299782479e+000" lowercontrol="-4.56296299782479e+000" warning="0"/>
+			<Loadings>
+				<Loading value="-6.02345507606398e-001"/>
+				<Loading value="1.26265174016802e-001"/>
+				<Loading value="2.40935789135156e-001"/>
+				<Loading value="1.49374816382880e-001"/>
+				<Loading value="-3.27706313259101e-001"/>
+				<Loading value="-3.34296778899296e-001"/>
+				<Loading value="4.84144149397273e-002"/>
+				<Loading value="1.26608762885873e-001"/>
+				<Loading value="-2.20967113151530e-001"/>
+				<Loading value="-2.74491421162532e-001"/>
+				<Loading value="3.80461841508390e-001"/>
+				<Loading value="1.85556967708656e-001"/>
+			</Loadings>
+		</Component>
+		<Component>
+			<Score type="0" std="1.17686697462888e+000" df="2167" controllimit="3.00000000000000e+000" uppercontrol="3.53060092388665e+000" lowercontrol="-3.53060092388665e+000" warning="0"/>
+			<Loadings>
+				<Loading value="-2.58004593300014e-002"/>
+				<Loading value="-2.26067896059657e-002"/>
+				<Loading value="1.22806137646821e-002"/>
+				<Loading value="7.41737669608601e-003"/>
+				<Loading value="-3.55680148773562e-002"/>
+				<Loading value="1.60960784678408e-001"/>
+				<Loading value="2.60356931598971e-001"/>
+				<Loading value="-8.21852588383492e-001"/>
+				<Loading value="5.34141742462182e-002"/>
+				<Loading value="1.93829911666599e-001"/>
+				<Loading value="3.61245476673626e-001"/>
+				<Loading value="2.39364092076191e-001"/>
+			</Loadings>
+		</Component>
+		<Component>
+			<Score type="0" std="1.06199539829471e+000" df="2167" controllimit="3.00000000000000e+000" uppercontrol="3.18598619488412e+000" lowercontrol="-3.18598619488412e+000" warning="0"/>
+			<Loadings>
+				<Loading value="-1.89810955771926e-003"/>
+				<Loading value="2.92358736543674e-002"/>
+				<Loading value="-1.24164023394564e-002"/>
+				<Loading value="-7.90806377784052e-003"/>
+				<Loading value="-4.23760677643753e-003"/>
+				<Loading value="-1.28082791302821e-001"/>
+				<Loading value="8.92920784552040e-001"/>
+				<Loading value="1.57908393706309e-002"/>
+				<Loading value="-1.43559620133506e-001"/>
+				<Loading value="-1.41832175269454e-001"/>
+				<Loading value="-3.42079020412381e-001"/>
+				<Loading value="-1.64927659411616e-001"/>
+			</Loadings>
+		</Component>
+	</Components>
+</PCA>
+</PMML>

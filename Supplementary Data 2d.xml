@@ -1,0 +1,2637 @@
+<?xml version="1.0" encoding="Windows-1252" ?>
+<PMML version="2.0">
+<Header copyright="STATISTICA Data Miner, Copyright (c) 2003, StatSoft, Inc, www.StatSoft.com"/>
+
+<DataDictionary numberOfFields="5">
+	<DataField name="Genomic Group" optype="categorical">
+		<Category label="AAB" value="103"/>
+		<Category label="AABB (Assumed)" value="104"/>
+		<Category label="AB" value="105"/>
+		<Category label="ABB" value="106"/>
+		<Category label="BB" value="107"/>
+		<Category label="AA" value="101"/>
+		<Category label="AAA" value="102"/>
+	</DataField>
+	<DataField name="Component 1 - Extracted component" optype="continuous"/>
+	<DataField name="Component 2 - Extracted component" optype="continuous"/>
+	<DataField name="Component 3 - Extracted component" optype="continuous"/>
+	<DataField name="Component 4 - Extracted component" optype="continuous"/>
+</DataDictionary>
+<SupportVectorMachineModel modelName="STATISTICA Support Vector Machine" svm_type=
+"C_SVC" capacity="6,00000000000000e+000">
+	<KernelType type="rbf" gamma="2,50000000000000e-001"/>
+	<SVMSchema>
+	<SVMField name="Component 1 - Extracted component" optype="continuous" shift="2,68153146545401e-001" scale="7,33460466480857e-002" />
+	<SVMField name="Component 2 - Extracted component" optype="continuous" shift="5,51454488583047e-001" scale="1,56396621832968e-001" />
+	<SVMField name="Component 3 - Extracted component" optype="continuous" shift="5,46721032959565e-001" scale="3,39789330615019e-001" />
+	<SVMField name="Component 4 - Extracted component" optype="continuous" shift="2,63963274674828e-001" scale="2,55036980362153e-001" />
+	<SVMField name="Genomic Group" optype="categorical" shift="0,00000000000000e+000"  scale="1,00000000000000e+000" >
+		<Category label="AAB" value="103"/>
+		<Category label="AABB (Assumed)" value="104"/>
+		<Category label="AB" value="105"/>
+		<Category label="ABB" value="106"/>
+		<Category label="BB" value="107"/>
+		<Category label="AA" value="101"/>
+		<Category label="AAA" value="102"/>
+</SVMField>
+	</SVMSchema>
+	<NoOfSupportVectorsPerClass>
+	<Category label="AAB" value="103" noOfSV="8"/>
+	<Category label="AABB (Assumed)" value="104" noOfSV="8"/>
+	<Category label="AB" value="105" noOfSV="83"/>
+	<Category label="ABB" value="106" noOfSV="9"/>
+	<Category label="BB" value="107" noOfSV="18"/>
+	<Category label="AA" value="101" noOfSV="46"/>
+	<Category label="AAA" value="102" noOfSV="11"/>
+	</NoOfSupportVectorsPerClass>
+	<VectorDictionary>
+		<VectorInstance id="sv0">
+			<AttributeInstance name="Component 1 - Extracted component" value="3,07539973595423e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="8,41413825461370e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="4,24736663268773e-002"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="2,74674827850038e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv1">
+			<AttributeInstance name="Component 1 - Extracted component" value="9,61566671556403e-002"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="5,12824522990303e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="4,04349303431872e-002"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="2,59117572047947e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv2">
+			<AttributeInstance name="Component 1 - Extracted component" value="9,55698987824556e-002"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="6,56396621832968e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="5,47060822290180e-002"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="2,60392756949758e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv3">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,08332110899223e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="5,22677510165780e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="4,14542983350322e-002"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="2,58097424126498e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv4">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,32682998386387e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="6,11979981232405e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="4,89296636085627e-002"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="2,57842387146136e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv5">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,33783189086108e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="5,36127619643416e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="4,00951410125722e-002"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="2,58352461106861e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv6">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,99794631069385e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="4,56990928995934e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="1,15528372409106e-002"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="2,72379495026779e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv7">
+			<AttributeInstance name="Component 1 - Extracted component" value="3,51620947630923e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="6,16828276509227e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="1,66496772001359e-002"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="2,68553940321347e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv8">
+			<AttributeInstance name="Component 1 - Extracted component" value="3,58368783922547e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="1,76884579293087e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="6,28610261637785e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,52512114256567e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv9">
+			<AttributeInstance name="Component 1 - Extracted component" value="6,08332110899223e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="1,45605254926494e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="5,85117227319062e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,64243815353226e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv10">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,00000000000000e+000"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="6,52330309665311e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="6,04825008494733e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,61183371588880e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv11">
+			<AttributeInstance name="Component 1 - Extracted component" value="3,45459879712484e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="5,58961526431029e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="6,68705402650357e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,57357816883448e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv12">
+			<AttributeInstance name="Component 1 - Extracted component" value="3,75091682558310e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="4,90928995933688e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="6,57492354740061e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,57867890844172e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv13">
+			<AttributeInstance name="Component 1 - Extracted component" value="3,71204342085962e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,57272442915233e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="6,35406048250085e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,53277225197654e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv14">
+			<AttributeInstance name="Component 1 - Extracted component" value="3,50007334604665e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="3,95527056615577e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="6,48657832144071e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,58377964804897e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv15">
+			<AttributeInstance name="Component 1 - Extracted component" value="7,26932668329177e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="7,66343446981543e-003"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="5,60312606184166e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,57102779903086e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv16">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,00557429954525e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,45699092899593e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,18212708120965e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,42565672022443e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv17">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,53293237494499e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,70566155771035e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,15154604145430e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,42820709002805e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv18">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,40457679331084e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,67438223334376e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,17193340129120e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,41545524100995e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv19">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,00557429954525e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,45699092899593e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,18212708120965e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,42565672022443e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv20">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,00557429954525e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,45699092899593e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,18212708120965e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,42565672022443e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv21">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,63708376118527e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="4,30559899906162e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,31464492014951e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,43075745983168e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv22">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,23074666275488e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="4,84360337816703e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,41318382602786e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,43585819943892e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv23">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,90039606865190e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="4,44791992492962e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,30445124023106e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,43330782963530e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv24">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,62168109138917e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="5,16578041914295e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,44036697247706e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,40270339199184e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv25">
+			<AttributeInstance name="Component 1 - Extracted component" value="9,99706615813408e-002"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="3,97560212699406e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,35881753312946e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,41545524100995e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv26">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,39430834678011e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,61182358461057e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,14475025484200e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,44095893904616e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv27">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,13833064397829e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="1,80012511729747e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,10397553516820e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,42055598061719e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv28">
+			<AttributeInstance name="Component 1 - Extracted component" value="8,70617573712777e-002"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,36315295589615e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,17533129459735e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,43840856924254e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv29">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,13833064397829e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="1,80012511729747e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,10397553516820e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,42055598061719e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv30">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,01070852281062e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="1,77353769158586e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,12776078831125e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,40780413159908e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv31">
+			<AttributeInstance name="Component 1 - Extracted component" value="8,70617573712777e-002"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,36315295589615e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,17533129459735e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,43840856924254e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv32">
+			<AttributeInstance name="Component 1 - Extracted component" value="8,75018336511662e-002"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="1,68439161714107e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,12096500169895e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,41800561081357e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv33">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,00557429954525e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,45699092899593e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,18212708120965e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,42565672022443e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv34">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,00557429954525e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,45699092899593e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,18212708120965e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,42565672022443e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv35">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,27108698841132e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="1,14325930559900e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,02242609582059e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,41545524100995e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv36">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,54540120287517e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,00344072568032e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,09038396194359e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,41035450140270e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv37">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,68915945430541e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,15514544885830e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,12436289500510e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,37464932415200e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv38">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,53293237494499e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,70566155771035e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,15154604145430e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,42820709002805e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv39">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,40604371424380e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="1,91429465123553e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,08698606863745e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,42310635042081e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv40">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,40457679331084e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,67438223334376e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,17193340129120e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,41545524100995e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv41">
+			<AttributeInstance name="Component 1 - Extracted component" value="8,75018336511662e-002"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="1,68439161714107e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,12096500169895e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,41800561081357e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv42">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,00557429954525e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,45699092899593e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,18212708120965e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,42565672022443e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv43">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,00557429954525e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,45699092899593e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,18212708120965e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,42565672022443e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv44">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,67889100777468e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,86049421332499e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,18552497451580e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,39250191277735e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv45">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,41411177937509e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="1,97685329996872e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,11416921508665e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,39760265238460e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv46">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,68549215197301e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,09102283390679e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,09378185524975e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,40015302218822e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv47">
+			<AttributeInstance name="Component 1 - Extracted component" value="8,74284876045182e-002"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="1,01501407569597e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,06659870880054e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,40015302218822e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv48">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,01070852281062e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="1,77353769158586e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,12776078831125e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,40780413159908e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv49">
+			<AttributeInstance name="Component 1 - Extracted component" value="7,19524717617721e-002"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,20988426649984e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,14135236153585e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,47411374649324e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv50">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,81971541733901e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,11604629340006e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,06999660210669e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,41290487120632e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv51">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,67742408684172e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,02846418517360e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,06659870880054e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,42310635042081e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv52">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,54540120287517e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,00344072568032e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,09038396194359e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,41035450140270e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv53">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,40164295144492e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="1,16359086643728e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="7,99864084267754e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,42820709002805e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv54">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,01070852281062e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="1,77353769158586e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,12776078831125e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,40780413159908e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv55">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,26741968607892e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,58210822646231e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,16853550798505e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,42820709002805e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv56">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,54540120287517e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,00344072568032e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,09038396194359e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,41035450140270e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv57">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,13833064397829e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="1,80012511729747e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,10397553516820e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,42055598061719e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv58">
+			<AttributeInstance name="Component 1 - Extracted component" value="7,39328150212704e-002"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="1,59524554269628e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,11416921508665e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,43075745983168e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv59">
+			<AttributeInstance name="Component 1 - Extracted component" value="8,75018336511662e-002"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="1,68439161714107e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,12096500169895e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,41800561081357e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv60">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,00557429954525e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,45699092899593e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,18212708120965e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,42565672022443e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv61">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,13833064397829e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="1,80012511729747e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,10397553516820e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,42055598061719e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv62">
+			<AttributeInstance name="Component 1 - Extracted component" value="8,70617573712777e-002"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,36315295589615e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,17533129459735e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,43840856924254e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv63">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,00557429954525e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,45699092899593e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,18212708120965e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,42565672022443e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv64">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,40457679331084e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,67438223334376e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,17193340129120e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,41545524100995e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv65">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,26741968607892e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,58210822646231e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,16853550798505e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,42820709002805e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv66">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,13833064397829e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="1,80012511729747e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,10397553516820e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,42055598061719e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv67">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,00557429954525e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,45699092899593e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,18212708120965e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,42565672022443e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv68">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,38917412351474e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="3,38129496402878e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,23649337410805e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,43585819943892e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv69">
+			<AttributeInstance name="Component 1 - Extracted component" value="8,70617573712777e-002"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,36315295589615e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,17533129459735e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,43840856924254e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv70">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,49552589115447e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="5,11886143259306e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,46075433231397e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,38995154297373e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv71">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,87985917559044e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="5,32061307475759e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,43017329255861e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,40270339199184e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv72">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,87985917559044e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="5,32061307475759e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,43017329255861e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,40270339199184e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv73">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,77790817074960e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="4,46825148576791e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,35202174651716e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,39505228258097e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv74">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,87399149185859e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="5,25961839224273e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,40299014610941e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,42820709002805e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv75">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,27622121167669e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="1,88927119174226e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,10737342847435e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,41035450140270e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv76">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,01070852281062e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="1,77353769158586e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,12776078831125e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,40780413159908e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv77">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,00044007627989e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="1,71097904285267e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,09717974855590e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,43330782963530e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv78">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,40457679331084e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,67438223334376e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,17193340129120e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,41545524100995e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv79">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,26595276514596e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="1,82671254300907e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,08019028202514e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,43330782963530e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv80">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,01070852281062e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="1,77353769158586e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,12776078831125e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,40780413159908e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv81">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,00557429954525e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,45699092899593e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,18212708120965e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,42565672022443e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv82">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,01070852281062e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="1,77353769158586e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,12776078831125e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,40780413159908e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv83">
+			<AttributeInstance name="Component 1 - Extracted component" value="8,75018336511662e-002"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="1,68439161714107e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,12096500169895e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,41800561081357e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv84">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,41411177937509e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="1,97685329996872e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,11416921508665e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,39760265238460e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv85">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,13026257884700e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,48827025336253e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,16173972137275e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,43840856924254e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv86">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,67742408684172e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,02846418517360e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,06659870880054e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,42310635042081e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv87">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,27622121167669e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="1,88927119174226e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,10737342847435e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,41035450140270e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv88">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,54540120287517e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,00344072568032e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,09038396194359e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,41035450140270e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv89">
+			<AttributeInstance name="Component 1 - Extracted component" value="8,75018336511662e-002"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="1,68439161714107e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,12096500169895e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,41800561081357e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv90">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,13026257884700e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,48827025336253e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,16173972137275e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,43840856924254e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv91">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,00557429954525e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,45699092899593e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,18212708120965e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,42565672022443e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv92">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,27622121167669e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="1,88927119174226e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,10737342847435e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,41035450140270e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv93">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,00557429954525e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,45699092899593e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,18212708120965e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,42565672022443e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv94">
+			<AttributeInstance name="Component 1 - Extracted component" value="8,75018336511662e-002"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="1,68439161714107e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,12096500169895e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,41800561081357e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv95">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,55200234707349e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="1,31060369096027e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,03261977573904e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,39250191277735e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv96">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,26595276514596e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="1,82671254300907e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,08019028202514e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,43330782963530e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv97">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,00044007627989e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="1,71097904285267e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,09717974855590e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,43330782963530e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv98">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,13026257884700e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,48827025336253e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,16173972137275e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,43840856924254e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv99">
+			<AttributeInstance name="Component 1 - Extracted component" value="2,60745195833945e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="9,32123866124492e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="9,91505266734625e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="7,39607243050239e-003"/>
+		</VectorInstance>
+		<VectorInstance id="sv100">
+			<AttributeInstance name="Component 1 - Extracted component" value="2,35074079507115e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="9,15389427588364e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="9,92184845395855e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="7,14103545014028e-003"/>
+		</VectorInstance>
+		<VectorInstance id="sv101">
+			<AttributeInstance name="Component 1 - Extracted component" value="2,36174270206836e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="9,21488895839850e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="9,94903160040775e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="4,84570262688089e-003"/>
+		</VectorInstance>
+		<VectorInstance id="sv102">
+			<AttributeInstance name="Component 1 - Extracted component" value="2,54364089775561e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="7,62120738192055e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="9,72816853550799e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="7,14103545014028e-003"/>
+		</VectorInstance>
+		<VectorInstance id="sv103">
+			<AttributeInstance name="Component 1 - Extracted component" value="2,60745195833945e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="9,32123866124492e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="9,91505266734625e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="7,39607243050239e-003"/>
+		</VectorInstance>
+		<VectorInstance id="sv104">
+			<AttributeInstance name="Component 1 - Extracted component" value="2,40354994865777e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="7,51798561151079e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="9,72137274889568e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="8,16118337158889e-003"/>
+		</VectorInstance>
+		<VectorInstance id="sv105">
+			<AttributeInstance name="Component 1 - Extracted component" value="3,58955552295731e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="9,06162026900219e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="9,78933061501869e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="6,88599846977811e-003"/>
+		</VectorInstance>
+		<VectorInstance id="sv106">
+			<AttributeInstance name="Component 1 - Extracted component" value="2,50330057209916e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="8,37660306537379e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="9,80292218824329e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="8,92629431267533e-003"/>
+		</VectorInstance>
+		<VectorInstance id="sv107">
+			<AttributeInstance name="Component 1 - Extracted component" value="2,50330057209916e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="8,37660306537379e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="9,80292218824329e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="8,92629431267533e-003"/>
+		</VectorInstance>
+		<VectorInstance id="sv108">
+			<AttributeInstance name="Component 1 - Extracted component" value="2,79741821915799e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="6,42008132624335e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,91946992864424e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,12726345320071e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv109">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,34516649552589e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="5,08601814200813e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,98402990146109e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,06350420811018e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv110">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,75003667302332e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="4,53862996559274e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,88549099558274e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,06095383830655e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv111">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,47865630042541e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="5,24397873005943e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="9,02140672782875e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,03034940066310e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv112">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,61141264485844e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="5,27369408820769e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,99762147468570e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,04310124968120e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv113">
+			<AttributeInstance name="Component 1 - Extracted component" value="2,84656007041221e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="5,78980294025649e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,90587835541964e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,05840346850293e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv114">
+			<AttributeInstance name="Component 1 - Extracted component" value="2,95584567991785e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="6,64060056302784e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,98402990146109e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,06605457791380e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv115">
+			<AttributeInstance name="Component 1 - Extracted component" value="2,04488778054863e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="8,73005943071630e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="9,35440027183146e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,02524866105585e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv116">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,88205955698988e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="9,44010009383797e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="9,44954128440367e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,03289977046672e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv117">
+			<AttributeInstance name="Component 1 - Extracted component" value="8,85286783042394e-002"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="8,44541757898029e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="9,32721712538226e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,14256567202244e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv118">
+			<AttributeInstance name="Component 1 - Extracted component" value="2,50623441396509e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="9,74663747263059e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="9,36799184505607e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,09665901555726e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv119">
+			<AttributeInstance name="Component 1 - Extracted component" value="2,36761038580021e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="9,56834532374101e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="9,32721712538226e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,12981382300434e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv120">
+			<AttributeInstance name="Component 1 - Extracted component" value="2,21064984597330e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="7,96058805129809e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="9,23547400611621e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,04310124968120e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv121">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,34516649552589e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="5,08601814200813e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,98402990146109e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,06350420811018e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv122">
+			<AttributeInstance name="Component 1 - Extracted component" value="2,02361742702068e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="4,65279949953081e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,86510363574584e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,06095383830655e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv123">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,47425553762652e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="5,11729746637473e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,96024464831804e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,07625605712828e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv124">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,34736687692533e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="5,15014075695965e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="9,01461094121645e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,04055087987758e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv125">
+			<AttributeInstance name="Component 1 - Extracted component" value="2,50623441396509e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="9,74663747263059e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="9,36799184505607e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,09665901555726e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv126">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,15299985330791e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,19580857053488e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="7,85592932381923e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,50981892374394e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv127">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,15299985330791e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,19580857053488e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="7,85592932381923e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,50981892374394e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv128">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,53733313774388e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="3,12011260556772e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="7,90689772341149e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,51747003315481e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv129">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,41557870030805e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,31936190178292e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="7,83893985728848e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,50981892374394e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv130">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,28942350007335e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="1,60306537378793e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="7,80496092422698e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,47921448610048e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv131">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,27988851400910e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,22708789490147e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="7,83554196398233e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,52257077276205e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv132">
+			<AttributeInstance name="Component 1 - Extracted component" value="2,21578406923867e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,62589928057554e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="7,76078831124703e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,53787299158378e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv133">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,02024350887487e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,10197059743510e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="7,84913353720693e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,52002040295843e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv134">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,27988851400910e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,22708789490147e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="7,83554196398233e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,52257077276205e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv135">
+			<AttributeInstance name="Component 1 - Extracted component" value="7,64265806073053e-002"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="1,97685329996872e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="7,86612300373768e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,51747003315481e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv136">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,28575619774094e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="8,61745386299655e-002"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="7,72341148487938e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,48686559551135e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv137">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,27988851400910e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,22708789490147e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="7,83554196398233e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,52257077276205e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv138">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,02024350887487e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,10197059743510e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="7,84913353720693e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,52002040295843e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv139">
+			<AttributeInstance name="Component 1 - Extracted component" value="8,88954085374799e-002"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="1,33406318423522e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="7,78797145769623e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,51236929354756e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv140">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,28575619774094e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="1,53894275883641e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="7,77777777777778e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,50471818413670e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv141">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,80064544521050e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="3,25304973412574e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="7,89330615018688e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,52002040295843e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv142">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,15299985330791e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,19580857053488e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="7,85592932381923e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,50981892374394e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv143">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,27988851400910e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,22708789490147e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="7,83554196398233e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,52257077276205e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv144">
+			<AttributeInstance name="Component 1 - Extracted component" value="8,88954085374799e-002"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="1,33406318423522e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="7,78797145769623e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,51236929354756e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv145">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,55053542614053e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,41319987488270e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="7,84573564390078e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,49961744452946e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv146">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,27988851400910e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,22708789490147e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="7,83554196398233e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,52257077276205e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv147">
+			<AttributeInstance name="Component 1 - Extracted component" value="2,23705442276661e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="1,90334688770723e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="7,69622833843017e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,52002040295843e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv148">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,27988851400910e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,22708789490147e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="7,83554196398233e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,52257077276205e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv149">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,27695467214317e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,98561151079137e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="7,92388718994224e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,51747003315481e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv150">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,76617280328590e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="3,91929934313419e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="7,93408086986069e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,56337668961999e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv151">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,41557870030805e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,31936190178292e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="7,83893985728848e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,50981892374394e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv152">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,28575619774094e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="8,61745386299655e-002"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="7,72341148487938e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,48686559551135e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv153">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,27988851400910e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,22708789490147e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="7,83554196398233e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,52257077276205e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv154">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,27988851400910e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,22708789490147e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="7,83554196398233e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,52257077276205e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv155">
+			<AttributeInstance name="Component 1 - Extracted component" value="7,64265806073053e-002"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="1,97685329996872e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="7,86612300373768e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,51747003315481e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv156">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,28575619774094e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="8,61745386299655e-002"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="7,72341148487938e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,48686559551135e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv157">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,41557870030805e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,31936190178292e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="7,83893985728848e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,50981892374394e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv158">
+			<AttributeInstance name="Component 1 - Extracted component" value="8,95555229573126e-002"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,07069127306850e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="7,87291879034998e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,50726855394032e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv159">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,28575619774094e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="8,61745386299655e-002"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="7,72341148487938e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,48686559551135e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv160">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,41557870030805e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,31936190178292e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="7,83893985728848e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,50981892374394e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv161">
+			<AttributeInstance name="Component 1 - Extracted component" value="8,88954085374799e-002"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="1,33406318423522e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="7,78797145769623e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,51236929354756e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv162">
+			<AttributeInstance name="Component 1 - Extracted component" value="8,90421006307760e-002"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,75414451047857e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="7,92728508324839e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,52512114256567e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv163">
+			<AttributeInstance name="Component 1 - Extracted component" value="7,67933108405457e-002"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="3,46731310603691e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,03601766904519e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,50726855394032e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv164">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,14493178817662e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,88864560525493e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="7,91369351002378e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,52767151236929e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv165">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,27988851400910e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,22708789490147e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="7,83554196398233e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,52257077276205e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv166">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,02684465307320e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,16452924616828e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="7,87971457696228e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,49706707472584e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv167">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,40310987237788e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="3,02158273381295e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="7,90010193679918e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,53022188217291e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv168">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,15299985330791e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,19580857053488e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="7,85592932381923e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,50981892374394e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv169">
+			<AttributeInstance name="Component 1 - Extracted component" value="8,95555229573126e-002"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,07069127306850e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="7,87291879034998e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,50726855394032e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv170">
+			<AttributeInstance name="Component 1 - Extracted component" value="8,88954085374799e-002"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="1,33406318423522e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="7,78797145769623e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,51236929354756e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv171">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,27695467214317e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="2,98561151079137e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="7,92388718994224e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="1,51747003315481e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv172">
+			<AttributeInstance name="Component 1 - Extracted component" value="3,90934428634297e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="4,96872067563341e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,54909955827387e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="9,97449630196378e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv173">
+			<AttributeInstance name="Component 1 - Extracted component" value="2,75267713070266e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="7,24585548952143e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="9,06557934080870e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="9,83422596276460e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv174">
+			<AttributeInstance name="Component 1 - Extracted component" value="3,33871204342086e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="7,23647169221145e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,85830784913354e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="9,99744963019638e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv175">
+			<AttributeInstance name="Component 1 - Extracted component" value="2,52603784656007e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="4,49014701282452e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,69520897043833e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="9,92093853608773e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv176">
+			<AttributeInstance name="Component 1 - Extracted component" value="2,28913011588675e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="4,55270566155771e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,79714576962283e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="9,84697781178271e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv177">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,59967727739475e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="5,68032530497341e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,97383622154264e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="9,86993114001530e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv178">
+			<AttributeInstance name="Component 1 - Extracted component" value="3,26023177350741e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="4,94526118235846e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,71899422358138e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="9,86228003060444e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv179">
+			<AttributeInstance name="Component 1 - Extracted component" value="3,67610385800205e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="5,03127932436659e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,65103635745838e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="9,89798520785514e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv180">
+			<AttributeInstance name="Component 1 - Extracted component" value="3,65189966260819e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="5,93368783234282e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,78355419639823e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="9,86993114001530e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv181">
+			<AttributeInstance name="Component 1 - Extracted component" value="1,69796097990318e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="6,44354081951830e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="9,01800883452260e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="9,90053557765876e-001"/>
+		</VectorInstance>
+		<VectorInstance id="sv182">
+			<AttributeInstance name="Component 1 - Extracted component" value="3,00718791257151e-001"/>
+			<AttributeInstance name="Component 2 - Extracted component" value="7,28026274632468e-001"/>
+			<AttributeInstance name="Component 3 - Extracted component" value="8,99762147468570e-001"/>
+			<AttributeInstance name="Component 4 - Extracted component" value="9,88268298903341e-001"/>
+		</VectorInstance>
+	</VectorDictionary>
+	<CoefficientDictionary>
+		<CoefficientInstance id="0">
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="2,14496940094242e+000"/>
+			<Value value="4,96616693799851e-001"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="1,89977745024461e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="1">
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="1,18878561683631e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="2">
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="2,73945800143180e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="3">
+			<Value value="2,33087754735872e+000"/>
+			<Value value="6,71925208156974e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="7,20647456461618e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="4">
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,42213497176037e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="5">
+			<Value value="6,34845592505355e-001"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="6">
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="6,99511831954023e-001"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="7">
+			<Value value="6,94422672582312e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="8">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="4,15929373634977e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="4,48551724200000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="9">
+			<Value value="-4,92869604214795e-001"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="10">
+			<Value value="-1,45675434661436e-001"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="2,48554499966458e-001"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="11">
+			<Value value="-8,65786874239967e+000"/>
+			<Value value="4,48551724200000e+001"/>
+			<Value value="2,51091265244057e+001"/>
+			<Value value="4,48551724200000e+001"/>
+			<Value value="3,04719540516458e-001"/>
+			<Value value="5,44516474890647e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="12">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="1,73923900233544e+001"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="13">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="1,06644571072676e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="14">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="2,24928223242441e+001"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="4,48551724200000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="15">
+			<Value value="-6,13536084411293e-001"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="3,21471782109526e-001"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="16">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="17">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="18">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="19">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="20">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="21">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="22">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="23">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="24">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="25">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="4,49418882353359e+001"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="26">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="27">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="28">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="29">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="30">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="3,43117560810613e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="31">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="32">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="33">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="34">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="35">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="36">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="37">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="38">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="39">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="40">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="41">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="42">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="43">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="44">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="2,75254767287980e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="45">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="46">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="47">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="48">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="49">
+			<Value value="-1,18429531183059e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="50">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="51">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="52">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="53">
+			<Value value="-8,27112342864676e-001"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="9,71020777479251e-001"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="54">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="55">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="56">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="57">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="58">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="59">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="60">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="61">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="62">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="63">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="64">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="65">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="66">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="67">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="68">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="69">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="70">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="71">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="4,55904748372871e+001"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="72">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="73">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="74">
+			<Value value="-4,70784442687447e+000"/>
+			<Value value="-1,84134109405939e+001"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,18767714843440e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="75">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="76">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="77">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="78">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="79">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="80">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="81">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="82">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="83">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="84">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="85">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="86">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="87">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="88">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="89">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="90">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="91">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="92">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="93">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="94">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="95">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="96">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="97">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="98">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="5,30938775400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="99">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="4,11645569400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="100">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="4,11645569400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="101">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="1,17984011083581e+001"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="102">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-4,42591789728713e+000"/>
+			<Value value="4,11645569400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="103">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="4,11645569400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="104">
+			<Value value="-4,88442740237422e+000"/>
+			<Value value="-2,51091265244057e+001"/>
+			<Value value="-4,11645569400000e+001"/>
+			<Value value="4,11645569400000e+001"/>
+			<Value value="2,18408440598558e+001"/>
+			<Value value="4,33819381718717e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="105">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="3,60862653565559e-001"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="106">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="4,11645569400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="107">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="4,11645569400000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="108">
+			<Value value="-2,11518525215059e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="2,41382648010275e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="109">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-6,50400000000000e+001"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="1,55749858044362e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="110">
+			<Value value="-2,09011477208076e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-6,50400000000000e+001"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="6,50400000000000e+001"/>
+			<Value value="1,66109542941913e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="111">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-4,20166381878851e+001"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="112">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-6,50400000000000e+001"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="113">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-6,22475624433544e+001"/>
+			<Value value="-2,54901479074509e+001"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="114">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-6,50400000000000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="115">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-6,50400000000000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="116">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-6,50400000000000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="117">
+			<Value value="-3,80426164571701e-002"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="118">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-3,57183751710775e+001"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="119">
+			<Value value="-5,84656871843104e-001"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="1,75771393564003e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="120">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-3,31542636179109e+001"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="121">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-6,50400000000000e+001"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="122">
+			<Value value="-1,09075215302860e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-6,50400000000000e+001"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="6,50400000000000e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="123">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-6,50400000000000e+001"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="124">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-6,50400000000000e+001"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="125">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-3,59576608993698e+001"/>
+			<Value value="0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="126">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-9,29142858000000e+001"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="127">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-9,29142858000000e+001"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="128">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-9,29142858000000e+001"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="129">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-9,29142858000000e+001"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="130">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-9,29142858000000e+001"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="131">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-9,29142858000000e+001"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="132">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-9,29142858000000e+001"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="133">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-9,29142858000000e+001"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="134">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-9,29142858000000e+001"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="135">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-9,29142858000000e+001"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="136">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-5,63932383829609e+001"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="137">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-9,29142858000000e+001"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="138">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-9,29142858000000e+001"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="139">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-9,29142858000000e+001"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="140">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-9,29142858000000e+001"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="141">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-9,29142858000000e+001"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-1,40420188845538e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="142">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-9,29142858000000e+001"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="143">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-9,29142858000000e+001"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="144">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-9,29142858000000e+001"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="145">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-9,29142858000000e+001"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="146">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-9,29142858000000e+001"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="147">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-7,76523568778407e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="148">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-9,29142858000000e+001"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="149">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-9,29142858000000e+001"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="150">
+			<Value value="-7,20647456461618e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-2,18408440598558e+001"/>
+			<Value value="-9,29142858000000e+001"/>
+			<Value value="6,22580034984338e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="151">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-9,29142858000000e+001"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="152">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-9,29142858000000e+001"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="153">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-9,29142858000000e+001"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="154">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-9,29142858000000e+001"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="155">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-9,29142858000000e+001"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="156">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-9,29142858000000e+001"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="157">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-9,29142858000000e+001"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="158">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-9,29142858000000e+001"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="159">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-1,87174595068989e+001"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="160">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-9,29142858000000e+001"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="161">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-9,29142858000000e+001"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="162">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-9,29142858000000e+001"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="163">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-9,29142858000000e+001"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-3,86986811198824e+001"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="164">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-9,29142858000000e+001"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="165">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-9,29142858000000e+001"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="166">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-9,29142858000000e+001"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="167">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-9,29142858000000e+001"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="168">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-9,29142858000000e+001"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="169">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-9,29142858000000e+001"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="170">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-9,29142858000000e+001"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="171">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-9,29142858000000e+001"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="172">
+			<Value value="-2,00923236031158e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="173">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-3,29032414120533e-001"/>
+			<Value value="-4,69905647075273e+000"/>
+			<Value value="-4,51167086803812e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="174">
+			<Value value="-3,33388640393463e-001"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="175">
+			<Value value="-1,33329162105416e-002"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="176">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-5,29129219894442e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-1,32096497712379e+000"/>
+			<Value value="-6,22580034984338e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="177">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-5,38373312848695e-001"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="178">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-2,56830264264657e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="179">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-1,19458203650102e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="180">
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-2,25230635183487e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="181">
+			<Value value="-1,30415955905021e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+		</CoefficientInstance>
+		<CoefficientInstance id="182">
+			<Value value="-1,27961423069139e-001"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+			<Value value="-0,00000000000000e+000"/>
+		</CoefficientInstance>
+	</CoefficientDictionary>
+	<ConstantDictionary>
+		<Value value="6,54445446635402e-002"/>
+		<Value value="4,68941966989861e-002"/>
+		<Value value="-2,36394583879242e-002"/>
+		<Value value="2,88320516892569e-002"/>
+		<Value value="-5,55111512312578e-016"/>
+		<Value value="-1,95298430695657e-002"/>
+		<Value value="-1,78731221757565e-001"/>
+		<Value value="-4,05231403988182e-015"/>
+		<Value value="6,21701277695096e-002"/>
+		<Value value="-2,41761942776434e-001"/>
+		<Value value="-5,28692857408711e-002"/>
+		<Value value="-3,24214811638024e-002"/>
+		<Value value="3,01996761909274e-002"/>
+		<Value value="7,91398276548701e-001"/>
+		<Value value="-2,68042254483970e-002"/>
+		<Value value="7,76257529813585e-001"/>
+		<Value value="-9,99200722162641e-016"/>
+		<Value value="-2,97588454104061e-003"/>
+		<Value value="4,72971341295451e-002"/>
+		<Value value="-3,86920814220776e-002"/>
+		<Value value="3,74700270810990e-016"/>
+	</ConstantDictionary>
+</SupportVectorMachineModel>
+</PMML>

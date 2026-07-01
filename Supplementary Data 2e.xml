@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="Windows-1252" ?>
+<PMML version="2.0">
+<Header copyright="STATISTICA MSPC, Copyright (c) StatSoft, Inc., www.statsoft.com."/>
+
+<DataDictionary numberOfFields="6">
+	<DataField name="Density" optype="predictor">
+		<Mean value="6.31599400369003e+001"/>
+		<Std value="1.98159492671599e+001"/>
+		<Scale value="1.98159492671599e+001"/>
+	</DataField>
+	<DataField name="Length" optype="predictor">
+		<Mean value="3.10987084870849e+001"/>
+		<Std value="4.70264269898299e+000"/>
+		<Scale value="4.70264269898299e+000"/>
+	</DataField>
+	<DataField name="Width" optype="predictor">
+		<Mean value="3.34746309963100e+001"/>
+		<Std value="3.64789732816622e+000"/>
+		<Scale value="3.64789732816622e+000"/>
+	</DataField>
+	<DataField name="Size" optype="predictor">
+		<Mean value="1.05516051660517e+003"/>
+		<Std value="2.72048480420725e+002"/>
+		<Scale value="2.72048480420725e+002"/>
+	</DataField>
+	<DataField name="Area" optype="predictor">
+		<Mean value="6.02170341328414e+003"/>
+		<Std value="2.89524785634175e+003"/>
+		<Scale value="2.89524785634175e+003"/>
+	</DataField>
+	<DataField name="Polyploidy Status" optype="predictor" numberOfCategories="3">
+		<Category text="2" value="1">
+			<Mean value="2.84132841328413e-001"/>
+			<Std value="4.51104458991343e-001"/>
+			<Scale value="4.51104458991343e-001"/>
+		</Category>
+		<Category text="3" value="2">
+			<Mean value="5.95940959409595e-001"/>
+			<Std value="4.90822219871433e-001"/>
+			<Scale value="4.90822219871433e-001"/>
+		</Category>
+		<Category text="4" value="3">
+			<Mean value="1.19926199261993e-001"/>
+			<Std value="3.24950167058694e-001"/>
+			<Scale value="3.24950167058694e-001"/>
+		</Category>
+	</DataField>
+</DataDictionary>
+
+<PCA scaling="UnitStandardDeviations" numberOfVariables="8" numberOfComponents="3">
+	<TS controllimit="9.90000000000000e-001" controlline="1.13877669666722e+001" warning="0"/>
+	<SPE controllimit="9.90000000000000e-001" controlline="3.62380630950003e+000" warning="0"/>
+	<Components>
+		<Component>
+			<Score type="0" std="2.09207320154124e+000" df="2167" controllimit="3.00000000000000e+000" uppercontrol="6.27621960462371e+000" lowercontrol="-6.27621960462370e+000" warning="0"/>
+			<Loadings>
+				<Loading value="-1.36231063189761e-001"/>
+				<Loading value="-4.47799612943256e-001"/>
+				<Loading value="-4.16466460662558e-001"/>
+				<Loading value="-4.57858969262494e-001"/>
+				<Loading value="-4.01275403685382e-001"/>
+				<Loading value="2.78636518042476e-001"/>
+				<Loading value="7.99719351707207e-003"/>
+				<Loading value="-3.98890011889612e-001"/>
+			</Loadings>
+		</Component>
+		<Component>
+			<Score type="0" std="1.56722913697765e+000" df="2167" controllimit="3.00000000000000e+000" uppercontrol="4.70168741093294e+000" lowercontrol="-4.70168741093294e+000" warning="0"/>
+			<Loadings>
+				<Loading value="-4.97570115843657e-001"/>
+				<Loading value="1.00828137474482e-001"/>
+				<Loading value="1.86993331201545e-001"/>
+				<Loading value="1.06583226858738e-001"/>
+				<Loading value="-2.89011404362762e-001"/>
+				<Loading value="-4.43994608832707e-001"/>
+				<Loading value="5.85820499297855e-001"/>
+				<Loading value="-2.68489691477070e-001"/>
+			</Loadings>
+		</Component>
+		<Component>
+			<Score type="0" std="8.78225352703094e-001" df="2167" controllimit="3.00000000000000e+000" uppercontrol="2.63467605810929e+000" lowercontrol="-2.63467605810928e+000" warning="0"/>
+			<Loadings>
+				<Loading value="6.11773191669488e-001"/>
+				<Loading value="-1.77690485333941e-001"/>
+				<Loading value="-2.44981395340510e-001"/>
+				<Loading value="-2.31762409242332e-001"/>
+				<Loading value="2.88897883773935e-001"/>
+				<Loading value="-4.35674016066919e-001"/>
+				<Loading value="4.49152267938681e-001"/>
+				<Loading value="-7.36095079193434e-002"/>
+			</Loadings>
+		</Component>
+	</Components>
+</PCA>
+</PMML>
